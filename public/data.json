@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "authorName": "Jhankar Mahbub",
+      "blogTitle": "What is the demand for web development?",
+      "blogCoverImg": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+      "AuthorImg":"https://media.licdn.com/dms/image/D5603AQEOjP3ON2knRg/profile-displayphoto-shrink_400_400/0/1677507598430?e=1685577600&v=beta&t=ZgG_aaIX9YDx_cSpPINhVlS5KP6I7RI6sLEvP5bjMDk",
+      "readTime": 14,
+      "publishDate":"Mar 14, 2023"
+
+    },
+    {
+      "id": 2,
+      "authorName": "Paul Andrew",
+      "blogTitle": "What Your eCommerce Store Colors Says About You",
+      "blogCoverImg": "https://burst.shopifycdn.com/photos/creating-a-programming-to-do-list.jpg?width=925&format=pjpg&exif=1&iptc=1",
+      "AuthorImg":"https://cdn.mos.cms.futurecdn.net/dT9Sds28YazWSnthFky3dW-300-80.jpg.webp",
+      "readTime": 5,
+      "publishDate":"Sep 1, 2022"
+
+    },
+    {
+      "id": 3,
+      "authorName": "10 Mistakes to Avoid in UI Design",
+      "blogTitle": "Tara Khan",
+      "blogCoverImg": "https://www.acquisition-international.com/wp-content/uploads/2021/09/UI-UX-Design.jpg",
+      "AuthorImg":"https://cdn.mos.cms.futurecdn.net/w9ChPUPXB2kUP2fvh7bLQH-300-80.jpg.webp",
+      "readTime": 8,
+      "publishDate":"Feb 3, 2023"
+
+    },
+    {
+      "id": 4,
+      "authorName": "Daniel Piper",
+      "blogTitle": "Branding Lessons from the Modern Marketing Era",
+      "blogCoverImg": "https://lh3.googleusercontent.com/lUmnFwX3AQd4mEA8snDZz4Eon5HjvXBQ4F2_rVXqhxomGMnJV6MFt3ahEKxWNZaW35Baa4-lrwGjXWB2JBlgdEfuWlv0MsA=s750",
+      "AuthorImg":"https://cdn.mos.cms.futurecdn.net/YPckD3zQZ5SwudLC7zoSkh-300-80.jpg.webp",
+      "readTime": 10,
+      "publishDate":"Mar 1, 2023"
+
+    },
+    {
+      "id": 5,
+      "authorName": "John Hughes",
+      "blogTitle": "How To Choose The Best WordPress Hosting Service",
+      "blogCoverImg": "https://cdn.wpbeginner.com/wp-content/uploads/2021/12/best-wordpress-hosting.png",
+      "AuthorImg":"https://cdn.mos.cms.futurecdn.net/mAGBVcffMsCy2rb5m44toR-300-80.jpg.webp",
+      "readTime": 12,
+      "publishDate":"Dec 14, 2022"
+
+    },
+    {
+      "id": 6,
+      "authorName": "Dom Carter",
+      "blogTitle": "The art of color coordination in web design",
+      "blogCoverImg": "https://documents.sessions.edu/eforms/courseware/coursedocuments/color_theory/images/img_1_013.jpg",
+      "AuthorImg":"https://cdn.mos.cms.futurecdn.net/eurPTSoxFRrwuSR4MbyuWA-300-80.jpg.webp",
+      "readTime": 11,
+      "publishDate":"Jan 4, 2023"
+
+    }
+    
+]
