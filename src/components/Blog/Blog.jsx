@@ -4,8 +4,7 @@ const Blog = (props) => {
     const {blogCoverImg, AuthorImg, authorName, blogTitle, readTime, publishDate} = props.blog
     return (
         <div>
-            <img src={blogCoverImg} alt="" />
-            
+            <img className='h-80 w-full rounded-xl' src={blogCoverImg} alt="" />
         </div>
     );
 };

@@ -4,14 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarked from './components/Bookmarked/Bookmarked'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="App mx-44">
+    <div className="App mx-48">
       <Header></Header>
-      <Blogs></Blogs>
+      <div className='grid grid-cols-3 gap-10 my-10'>
+        <Blogs></Blogs>
+        <Bookmarked></Bookmarked>
+      </div>
     </div>
   )
 }
