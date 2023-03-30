@@ -20,6 +20,7 @@ const Blog = (props) => {
                     <button className=''><FontAwesomeIcon icon={faBookmark} /></button>
                 </div>
             </div>
+            <h3 className='text-2xl font-bold'>{blogTitle}</h3>
         </div>
     );
 };
