@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Bookmarked from '../Bookmarked/Bookmarked';
-
+import { ToastContainer, toast } from 'react-toastify';
 
 const Blogs = () => {
-    let markedBlog =[]
     const [time, setTime] = useState(0)
     const [bookmarked, setBookmarked] = useState([])
     const handleReadTime = (readTime) =>{
@@ -21,10 +20,17 @@ const Blogs = () => {
 
         }
     }
+    
     const handleBookmark = (marked) =>{
+        const alreadyMarked = bookmarked.find(click => click.id === marked.id)
+        if(alreadyMarked){
+            toast("The blog is already bookmarked")
+        }
         const newMarked = [...bookmarked, marked]
         setBookmarked(newMarked)
     }
+    
+      
     
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
