@@ -4,6 +4,7 @@ import { faBookmark } from '@fortawesome/free-regular-svg-icons'
 
 const Blog = (props) => {
     const { blogCoverImg, AuthorImg, authorName, blogTitle, readTime, publishDate } = props.blog
+    const handleReadTime= props.handleReadTime
     return (
         <div className='border-b-2 my-10'>
             <img className='h-80 w-full rounded-xl' src={blogCoverImg} alt="" />
@@ -21,7 +22,7 @@ const Blog = (props) => {
                 </div>
             </div>
             <h3 className='text-2xl font-bold'>{blogTitle}</h3>
-            <button className='text-indigo-700 font-semibold border-b-2 border-indigo-700 my-8'>Mark as read</button>
+            <button onClick={() => handleReadTime(readTime)} className='text-indigo-700 font-semibold border-b-2 border-indigo-700 my-8'>Mark as read</button>
            
         </div>
     );
