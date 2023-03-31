@@ -13,7 +13,7 @@ const Bookmarked = (props) => {
             {
                 bookmarked.map((markBlog,index) => (
                     <div className='bg-white p-5 font-semibold rounded-xl my-5' key={index}>
-                        <p>{index+1}. {markBlog.blogTitle}</p>
+                        <p>{markBlog.blogTitle}</p>
                     </div>
                 ))
             }

@@ -39,7 +39,7 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
-        <div  className='grid grid-cols-3 gap-10'>
+        <div  className='md:grid md:grid-cols-3 md:gap-10'>
             <div className='col-span-2'>
                 {
                     blogs.map(blog => <Blog key={blog.id} blog={blog} handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Blog>)
