@@ -4,7 +4,9 @@ import Bookmarked from '../Bookmarked/Bookmarked';
 
 
 const Blogs = () => {
+    let markedBlog =[]
     const [time, setTime] = useState(0)
+    const [bookmarked, setBookmarked] = useState([])
     const handleReadTime = (readTime) =>{
         const prevReadTime = JSON.parse(localStorage.getItem("readTime"))
         if(prevReadTime){
@@ -19,6 +21,10 @@ const Blogs = () => {
 
         }
     }
+    const handleBookmark = (marked) =>{
+        const newMarked = [...bookmarked, marked]
+        setBookmarked(newMarked)
+    }
     
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
@@ -30,10 +36,10 @@ const Blogs = () => {
         <div  className='grid grid-cols-3 gap-10'>
             <div className='col-span-2'>
                 {
-                    blogs.map(blog => <Blog key={blog.id} blog={blog} handleReadTime={handleReadTime}></Blog>)
+                    blogs.map(blog => <Blog key={blog.id} blog={blog} handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Blog>)
                 }
             </div>
-            <Bookmarked time={time}></Bookmarked>
+            <Bookmarked bookmarked={bookmarked} time={time}></Bookmarked>
         </div>
     );
 };
