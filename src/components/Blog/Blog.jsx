@@ -5,9 +5,9 @@ import { faBookmark } from '@fortawesome/free-regular-svg-icons'
 const Blog = (props) => {
     const { blogCoverImg, AuthorImg, authorName, blogTitle, readTime, publishDate } = props.blog
     return (
-        <div>
+        <div className='border-b-2 my-10'>
             <img className='h-80 w-full rounded-xl' src={blogCoverImg} alt="" />
-            <div className='flex justify-between my-8'>
+            <div className='flex justify-between my-5'>
                 <div className='flex'>
                     <img className='w-12 rounded-full mr-5' src={AuthorImg} alt="" />
                     <div>
@@ -21,6 +21,8 @@ const Blog = (props) => {
                 </div>
             </div>
             <h3 className='text-2xl font-bold'>{blogTitle}</h3>
+            <button className='text-indigo-700 font-semibold border-b-2 border-indigo-700 my-8'>Mark as read</button>
+           
         </div>
     );
 };

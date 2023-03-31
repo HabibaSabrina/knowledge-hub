@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App mx-48">
       <Header></Header>
-      <div className='grid grid-cols-3 gap-10 my-10'>
+      <div className='grid grid-cols-3 gap-10'>
         <Blogs></Blogs>
         <Bookmarked></Bookmarked>
       </div>
